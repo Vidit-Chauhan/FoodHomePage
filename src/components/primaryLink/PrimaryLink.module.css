@@ -1,0 +1,7 @@
+.anchorLink {
+    font-size: 12px;
+    text-decoration: none;
+    color: grey;
+    margin: auto 20px;
+    width: max-content;
+}

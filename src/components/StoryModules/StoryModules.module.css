@@ -1,0 +1,24 @@
+.StoryModuleWrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-bottom: 40px;
+}
+.StoryModuleTile {
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    min-width: 200px;
+}
+
+.StoryModuleTile:nth-child(odd) {
+    background-color: #fff;
+}
+
+.StoryModuleTile:nth-child(even) {
+    background-color: rgb(247, 193, 92);
+}
+
+.StoryModuleTile img {
+    max-height: 30px;
+}

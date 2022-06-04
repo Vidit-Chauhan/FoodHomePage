@@ -1,0 +1,66 @@
+.StoryTileWrapper {
+    max-height: 400px;
+    display: flex;
+    text-align: left;
+    padding: 20px 80px;
+}
+
+.StoryTileWrapper p {
+    margin: 10px 0;
+}
+
+.StoryTileWrapper .eyebrowTitle {
+    font-size: 10px;
+    color: rgb(161, 31, 31);
+}
+
+.StoryTileWrapper img {
+    max-height: 200px;
+}
+
+.StoryTileWrapper img:first-of-type {
+    max-height: 70px;
+    margin-bottom: 0;
+}
+
+.StoryTileWrapper .title {
+    font-size: 30px;
+}
+
+.StoryTileWrapper .description {
+    font-size: 12px;
+}
+
+.detailsWrapperV2 {
+    order: 1;
+    margin-left: 40px;
+}
+
+.detailsWrapperV2 + img:first-of-type {
+    margin-bottom: auto;
+    margin-top: 0;
+}
+
+.highlightWrapper {
+    order: 2;
+    display: inline-grid;
+    grid-template-columns: auto auto;
+}
+
+.highlight {
+    margin: 5px;
+    width: 140px;
+    background-color: #e3dfd3;
+    border-radius: 10px;
+    padding: 5px 20px
+}
+
+.highlight img {
+    height: 24px;
+    font-size: 12px;
+}
+
+.highlight span {
+    margin-left: 4px;
+    font-size: 12px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: auto;
+}
+
+.headerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    height: 60px;
+    max-height: 60px;
+    margin: 20px 80px;
+}
+
+.logo {
+    height: inherit;
+    margin-right: 150px;
+}
+
+.headerIcon {
+    height: 20px;
+}
+
+.searchAndcartWrapper {
+    display: flex;
+    width: 60px;
+    margin: 0 20px 0 5px;
+    justify-content: space-between;
+}
+
+.searchAndcartWrapper hr{
+    height: 18px;
+    /* margin: auto; */
+}
+
+.searchAndcartWrapper img{
+    color: black;
+    padding: 0 15px;
+}
