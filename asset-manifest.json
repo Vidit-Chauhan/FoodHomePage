@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/FoodHomePage/static/css/main.e70fdb47.css",
+    "main.js": "/FoodHomePage/static/js/main.6e5db6ce.js",
+    "static/js/787.fd53e7bc.chunk.js": "/FoodHomePage/static/js/787.fd53e7bc.chunk.js",
+    "static/media/Grass 2.png": "/FoodHomePage/static/media/Grass 2.3df5ddadf1463d87b2dc.png",
+    "static/media/Food.png": "/FoodHomePage/static/media/Food.a5f869c265684755adf5.png",
+    "static/media/Header image.png": "/FoodHomePage/static/media/Header image.e6d4eb214309bc8b68cb.png",
+    "static/media/Grass.png": "/FoodHomePage/static/media/Grass.79a41501473a6414f406.png",
+    "static/media/Logo with text.png": "/FoodHomePage/static/media/Logo with text.e76adb01e50cbf301be4.png",
+    "static/media/Calendar.png": "/FoodHomePage/static/media/Calendar.a9ac7132ae4222cb22b8.png",
+    "static/media/Quality maintain.png": "/FoodHomePage/static/media/Quality maintain.275bccc83475ffaa1457.png",
+    "static/media/Fresh food.png": "/FoodHomePage/static/media/Fresh food.7aa7526f24f98232ccb2.png",
+    "static/media/Fast delivery.png": "/FoodHomePage/static/media/Fast delivery.f416f5f472ae102a2daa.png",
+    "static/media/Location.png": "/FoodHomePage/static/media/Location.72c6490836bed33aeee8.png",
+    "static/media/24 hour service.png": "/FoodHomePage/static/media/24 hour service.77a7e4e694b9636bf42f.png",
+    "static/media/Search icon.png": "/FoodHomePage/static/media/Search icon.77ad1c5feb207e605651.png",
+    "static/media/Call.png": "/FoodHomePage/static/media/Call.93ab1997949f5ac8845f.png",
+    "index.html": "/FoodHomePage/index.html",
+    "main.e70fdb47.css.map": "/FoodHomePage/static/css/main.e70fdb47.css.map",
+    "main.6e5db6ce.js.map": "/FoodHomePage/static/js/main.6e5db6ce.js.map",
+    "787.fd53e7bc.chunk.js.map": "/FoodHomePage/static/js/787.fd53e7bc.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e70fdb47.css",
+    "static/js/main.6e5db6ce.js"
+  ]
+}
