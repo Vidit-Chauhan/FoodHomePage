@@ -36,3 +36,37 @@
     color: black;
     padding: 0 15px;
 }
+
+.cartWrapper {
+    position: relative;
+}
+
+.cartWrapper > p {
+    position: absolute;
+    top: 0;
+    right: 10px;
+    font-size: 10px;
+    color: white;
+    background-color: red;
+    border-radius: 50%;
+    padding: 0 5px;
+}
+
+.flyout {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    padding: 20px 40px;
+    height: 200px;
+    overflow: scroll;
+}
+
+
+.flyout img {
+    width: 50px;
+    height: 50px;
+}
+
+.cartWrapper:hover .flyout{
+    display: block;
+}

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import Header from "../components/header";
 import StoryTile from "../components/StoryTile";
 import StoryTileData from "../mockData/StoryTileData";
@@ -13,17 +14,18 @@ import CategoriesData from "../mockData/CategoriesData";
 /* This component acts as a container
  for all the components coming on Homepage */
 const Homepage = () => {
+    const [cartItems, setCartItems] = useState([]);
     return (
         <>
         <div className='TopContainer'>
-            <Header/>
+            <Header cartItems={cartItems}/>
             <StoryTile {...StoryTileData} variation="V1"/>
             <StoryModules data={StoryModulesData}/>
         </div>
         <StoryTile {...SecondStoryTileData} variation="V2"/>
         <ImageWrapper data={FullWidthImageComponentData}/>
         <ImageWrapper data={MultiImageComponentData}/>
-        <Categories data={CategoriesData}/>
+        <Categories data={CategoriesData} setCartItems={setCartItems} />
         </>
     )
 }

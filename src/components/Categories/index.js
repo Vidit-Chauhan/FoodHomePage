@@ -8,11 +8,17 @@ on each categories, we are showing multiple items with their name, price and
 a button to add them to cart.
 */
 
-const Categories = ({data}) => {
+const Categories = ({data, setCartItems}) => {
     const [items, setItems] = useState([]);
 
     const onItemClick = category => {
         setItems(category.items);
+    }
+
+    const onAddToCartButtonClick = item => {
+        setCartItems(prevState =>
+            [...prevState, item]
+        );
     }
 
     const categoryListRenderer = () => {
@@ -40,7 +46,7 @@ const Categories = ({data}) => {
                     <div>
                         <p>{item.name}</p>
                         <p>{`$ ${item.price}`}</p>
-                        <button>Add to Cart</button>
+                        <button onClick={() => onAddToCartButtonClick(item)}>Add to Cart</button>
                     </div>
                     </div>
                 )

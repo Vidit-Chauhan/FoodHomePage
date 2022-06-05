@@ -7,7 +7,8 @@ import Button from "../Button";
 
 /* This component is used to only render the Main components of Header,
     such as - Logo, Navigation, search and Cart */
-const Header = () => {
+const Header = ({cartItems}) => {
+    console.log('vidit',  cartItems)
     return (
         <div className={styles.headerContainer}>
             <img className={styles.logo} src={logoIcon} />
@@ -19,7 +20,21 @@ const Header = () => {
             <div className={styles.searchAndcartWrapper}>
             <img className={styles.headerIcon} src={searchIcon} />
             <hr></hr>
-            <img className={styles.headerIcon} src={cartIcon} />
+            <div className={styles.cartWrapper}>
+                <img className={styles.headerIcon} src={cartIcon} />
+                {cartItems?.length > 0 && <p>{cartItems.length}</p>}
+                <div className={styles.flyout}>
+                    {cartItems.map(cartItem => (
+                        <div>
+                        <img src={cartItem.image}/>
+                        <span>{cartItem.name}</span>
+                        <span>{cartItem.price}</span>
+                    </div>
+                    ))}
+                </div>
+            </div>
+            
+
             </div>
             
             <Button label="Log In" clickFn={()=>{}} classes=''/>
