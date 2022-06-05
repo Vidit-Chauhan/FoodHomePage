@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/FoodHomePage/static/css/main.679781a0.css",
-    "main.js": "/FoodHomePage/static/js/main.e29040ab.js",
+    "main.css": "/FoodHomePage/static/css/main.eece5b28.css",
+    "main.js": "/FoodHomePage/static/js/main.e0b6b56c.js",
     "static/js/787.fd53e7bc.chunk.js": "/FoodHomePage/static/js/787.fd53e7bc.chunk.js",
     "static/media/Burger slider.png": "/FoodHomePage/static/media/Burger slider.b59dcd6187c8834432cb.png",
     "static/media/pizza 1.png": "/FoodHomePage/static/media/pizza 1.57eb1c767eb612e196cc.png",
@@ -28,12 +28,12 @@
     "static/media/Search icon.png": "/FoodHomePage/static/media/Search icon.77ad1c5feb207e605651.png",
     "static/media/Call.png": "/FoodHomePage/static/media/Call.93ab1997949f5ac8845f.png",
     "index.html": "/FoodHomePage/index.html",
-    "main.679781a0.css.map": "/FoodHomePage/static/css/main.679781a0.css.map",
-    "main.e29040ab.js.map": "/FoodHomePage/static/js/main.e29040ab.js.map",
+    "main.eece5b28.css.map": "/FoodHomePage/static/css/main.eece5b28.css.map",
+    "main.e0b6b56c.js.map": "/FoodHomePage/static/js/main.e0b6b56c.js.map",
     "787.fd53e7bc.chunk.js.map": "/FoodHomePage/static/js/787.fd53e7bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.679781a0.css",
-    "static/js/main.e29040ab.js"
+    "static/css/main.eece5b28.css",
+    "static/js/main.e0b6b56c.js"
   ]
 }
