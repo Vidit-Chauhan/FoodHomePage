@@ -9,9 +9,11 @@
 
 .TopContainer{
   background-color: #e3dfd3;
+  padding: 0;
 }
 
-.eyebrowTitle {
-  font-size: 10px;
-  color: rgb(161, 31, 31);
+@media screen and (max-width: 767px) {
+  .App > * {
+    padding: 0;
+  }
 }

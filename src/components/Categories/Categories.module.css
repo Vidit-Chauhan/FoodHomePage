@@ -1,62 +1,108 @@
 .categoryWrapper {
-    background-color: aqua;
+    margin: 40px;
+    text-align: left;
 }
 
 .categoryListWrapper {
-    margin: 20px 40px;
-    max-height: 250px;
-    max-width: 240px;
+    margin: 20px 0 40px;
+    padding-right: 30px;
+    min-width: 240px;
     overflow: scroll;
 }
 
 .categoryContentWrapper {
     display: flex;
+    max-height: 550px;
 }
 .imageWrapper {
-    max-width: 450px;
+    max-width: 90vw;
     margin-left: 20px;
     overflow-x: scroll;
     display: flex;
+    min-width: 200px;
 }
 
 .imageWrapper > .itemWrapper:nth-child(even) {
-    margin: 0 20px;
+    margin: auto 20px;
+}
+
+.categoryWrapper > div:first-child {
+    max-width: 360px;
+    margin-left: 0;
 }
 
 .itemWrapper {
     position: relative;
 }
 
+.eyebrowTitle {
+    font-size: 16px;
+    color: rgb(161, 31, 31);
+}
+
+.title {
+    font-size: 42px;
+}
+
 .itemWrapper div {
-    position: absolute;
-    background-color: gray;
+    margin-top: -160px;
+    background-color: rgb(90, 89, 89);
     opacity: 0.8;
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
     bottom: 0;
-    padding: 20px 50px;
+    padding: 20px 30px;
 }
 
 .CategoryItem {
-    background-color: rgb(255, 200, 48);
     overflow: scroll;
-    padding: 20px 40px;
-    margin: 5px;
-    width: 140px;
+    padding: 10px 15px;
+    margin: 20px 5px;
+    width: 160px;
     background-color: #e3dfd3;
     border-radius: 10px;
-    padding: 5px 20px
+}
+
+.selected {
+    background-color: rgb(255, 200, 48);
 }
 
 .CategoryItem img {
-    height: 24px;
+    height: 40px;
     font-size: 12px;
 }
 
 .CategoryItem span {
-    margin-left: 4px;
-    font-size: 12px;
+    margin-left: 14px;
+    font-size: 20px;
 }
 
-.itemWrapper img {
-    width: 240px;
-   height:240px;
+.itemWrapper button {
+    cursor: pointer;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
 }
+
+@media screen and (max-width: 767px) {
+    .categoryListWrapper {
+        min-width: 180px;
+        display: flex;
+    }
+
+    .categoryWrapper {
+        margin: 30px 10px;
+    }
+    .categoryContentWrapper {
+        flex-direction: column;
+    }
+    .CategoryItem {
+        display: flex;
+        overflow: unset;
+        height: max-content;
+    }
+}
+

@@ -1,3 +1,4 @@
+import { useState, useLayoutEffect } from "react";
 import Button from "../Button";
 import styles from "./StoryTile.module.css";
 
@@ -8,10 +9,15 @@ import styles from "./StoryTile.module.css";
 */
 
 const StoryTile = ({image1, image2, title, eyebrowTitle, description, buttonLabel, buttonClickFn, variation = "V1", highlights}) => {
+    const [headerHeight, setHeaderHeight] = useState(0);
+    useLayoutEffect(()=>{
+        const headerHeight = document?.getElementById('headerContainer')?.offsetHeight;
+        setHeaderHeight(headerHeight);
+    },[]);
     return (
-            <div className={styles.StoryTileWrapper}>
+            <div className={styles.StoryTileWrapper} style={{marginTop: variation === 'V1' ? headerHeight : 0}}>
                 <div className={styles[`detailsWrapper${variation}`]}>
-                    {eyebrowTitle && <p className="eyebrowTitle">{eyebrowTitle}</p>}
+                    {eyebrowTitle && <p className={styles.eyebrowTitle}>{eyebrowTitle}</p>}
                     {title && <p className={styles.title}>{title}</p>}
                     {description && <p className={styles.description}>{description}</p>}
                     {buttonLabel && <Button label={buttonLabel} clickFn={buttonClickFn} />}

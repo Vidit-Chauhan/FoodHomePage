@@ -9,9 +9,11 @@ a button to add them to cart.
 */
 
 const Categories = ({data, setCartItems}) => {
-    const [items, setItems] = useState([]);
-
-    const onItemClick = category => {
+    const [items, setItems] = useState(data?.categories[0]?.items);
+    const [selectedIndex, setSelectedIndex] = useState(0);
+    console.log('vidit111', data?.categories[0].items)
+    const onItemClick = (category, index) => {
+        setSelectedIndex(index);
         setItems(category.items);
     }
 
@@ -22,8 +24,8 @@ const Categories = ({data, setCartItems}) => {
     }
 
     const categoryListRenderer = () => {
-        return data?.categories?.map(category => (
-            <div onClick={() => onItemClick(category)} className={styles.CategoryItem}>
+        return data?.categories?.map((category, index) => (
+            <div onClick={() => onItemClick(category, index)} selected={index === selectedIndex} className={`${styles.CategoryItem} ${index === selectedIndex ? styles.selected : ''}`}>
                 <img className={styles.categoryImage} src={category.image} />
                 <span>{category.title}</span>
             </div>
@@ -32,7 +34,7 @@ const Categories = ({data, setCartItems}) => {
     return (
     <div className={styles.categoryWrapper}>
         <div>
-            <p className="eyebrowTitle">{data.eyebrowTitle}</p>
+            <p className={styles.eyebrowTitle}>{data.eyebrowTitle}</p>
             <p className={styles.title}>{data.title}</p>
         </div>
         <div className={styles.categoryContentWrapper}>

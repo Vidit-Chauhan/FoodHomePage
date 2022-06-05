@@ -5,3 +5,9 @@
 .ImageWrapper > *:nth-child(even){
     margin: 0 20px;
 }
+
+@media screen and (max-width: 767px) {
+    .ImageWrapper {
+        margin: 30px 10px;
+    }
+}

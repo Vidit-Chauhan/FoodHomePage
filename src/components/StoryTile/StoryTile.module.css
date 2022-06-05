@@ -1,5 +1,6 @@
 .StoryTileWrapper {
     max-height: 400px;
+    margin-top: 200px;
     display: flex;
     text-align: left;
     padding: 20px 80px;
@@ -50,6 +51,11 @@
     padding: 5px 20px
 }
 
+.eyebrowTitle {
+    font-size: 10px;
+    color: rgb(161, 31, 31);
+  }
+
 .highlight img {
     height: 24px;
     font-size: 12px;
@@ -58,4 +64,20 @@
 .highlight span {
     margin-left: 4px;
     font-size: 12px;
+}
+
+@media screen and (max-width: 767px) {
+    .detailsWrapperV2 {
+        margin-left: 0;
+    }
+
+    .StoryTileWrapper {
+        max-height: max-content;
+        padding: 20px;
+        flex-wrap: wrap;
+    }
+
+    .highlightWrapper {
+        display: block;
+    }
 }

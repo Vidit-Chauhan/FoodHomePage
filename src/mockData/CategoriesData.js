@@ -30,7 +30,7 @@ const CategoriesData = {
         },
         {
             image: pizza2Image,
-            name: 'FarmHouse Pizza',
+            name: 'FarmHouse',
             price: 9.22,
         }]
         },
@@ -43,7 +43,7 @@ const CategoriesData = {
             price: 3.68,
         },{
             image: pizza2Image,
-            name: 'Normal French fries',
+            name: 'Normal fries',
             price: 2.68,
         },{
             image: pizza1Image,
@@ -77,7 +77,7 @@ const CategoriesData = {
             price: 3.68,
         },{
             image: pizza2Image,
-            name: 'Normal French fries',
+            name: 'Normal fries',
             price: 2.68,
         },{
             image: pizza1Image,
@@ -94,7 +94,7 @@ const CategoriesData = {
             price: 3.68,
         },{
             image: pizza2Image,
-            name: 'Normal French fries',
+            name: 'Normal fries',
             price: 2.68,
         },{
             image: pizza1Image,
@@ -110,7 +110,7 @@ const CategoriesData = {
             price: 3.68,
         },{
             image: pizza2Image,
-            name: 'Normal French fries',
+            name: 'Normal fries',
             price: 2.68,
         },{
             image: pizza1Image,
@@ -126,7 +126,7 @@ const CategoriesData = {
             price: 3.68,
         },{
             image: '',
-            name: 'Normal French fries',
+            name: 'Normal fries',
             price: 2.68,
         },{
             image: '',
@@ -158,7 +158,7 @@ const CategoriesData = {
             price: 3.68,
         },{
             image: '',
-            name: 'Normal French fries',
+            name: 'Normal fries',
             price: 2.68,
         },{
             image: '',
