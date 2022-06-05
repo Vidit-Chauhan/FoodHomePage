@@ -11,7 +11,6 @@ a button to add them to cart.
 const Categories = ({data, setCartItems}) => {
     const [items, setItems] = useState(data?.categories[0]?.items);
     const [selectedIndex, setSelectedIndex] = useState(0);
-    console.log('vidit111', data?.categories[0].items)
     const onItemClick = (category, index) => {
         setSelectedIndex(index);
         setItems(category.items);
@@ -42,7 +41,7 @@ const Categories = ({data, setCartItems}) => {
             {categoryListRenderer()}
         </div >
         {items && <div className={styles.imageWrapper}>
-            {items.map(item => (
+            {items.map((item) => (
                     <div className={styles.itemWrapper}>
                     <img src={item.image} />
                     <div>

@@ -7,8 +7,12 @@ import Button from "../Button";
 
 /* This component is used to only render the Main components of Header,
     such as - Logo, Navigation, search and Cart */
-const Header = ({cartItems}) => {
-    console.log('vidit',  cartItems)
+const Header = ({cartItems, setCartItems}) => {
+    const removeItemFromCart = index => {
+        let itemArray = cartItems;
+        itemArray.splice(index, 1);
+        setCartItems([...itemArray]);
+    }
     return (
         <div id="headerContainer" className={styles.headerContainer}>
             <img className={styles.logo} src={logoIcon} />
@@ -25,11 +29,12 @@ const Header = ({cartItems}) => {
                     <img className={styles.headerIcon} src={cartIcon} />
                     {cartItems?.length > 0 && <p>{cartItems.length}</p>}
                     <div className={styles.flyout}>
-                        {cartItems.map(cartItem => (
+                        {cartItems.map((cartItem, index) => (
                             <div className={styles.flex}>
                             <img src={cartItem.image}/>
                             <span>{cartItem.name}</span>
                             <span>{cartItem.price}</span>
+                            <button onClick={() => removeItemFromCart(index)}>Remove</button>
                         </div>
                         ))}
                     </div>

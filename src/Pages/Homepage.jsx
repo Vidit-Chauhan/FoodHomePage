@@ -18,7 +18,7 @@ const Homepage = () => {
     return (
         <>
         <div className='TopContainer'>
-            <Header cartItems={cartItems}/>
+            <Header cartItems={cartItems} setCartItems={setCartItems}/>
             <StoryTile {...StoryTileData} variation="V1"/>
             <StoryModules data={StoryModulesData}/>
         </div>
