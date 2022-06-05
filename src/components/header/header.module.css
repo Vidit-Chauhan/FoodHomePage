@@ -18,8 +18,13 @@
     margin-right: 150px;
 }
 
-.flex {
+.cartItem {
+    margin-bottom: 10px;
     display: flex;
+}
+
+.cartItem button {
+    margin-left: 10px;
 }
 
 .headerIcon {

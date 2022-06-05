@@ -28,16 +28,16 @@ const Header = ({cartItems, setCartItems}) => {
                 <div className={styles.cartWrapper}>
                     <img className={styles.headerIcon} src={cartIcon} />
                     {cartItems?.length > 0 && <p>{cartItems.length}</p>}
-                    <div className={styles.flyout}>
+                    {cartItems?.length > 0 && <div className={styles.flyout}>
                         {cartItems.map((cartItem, index) => (
-                            <div className={styles.flex}>
+                            <div className={styles.cartItem}>
                             <img src={cartItem.image}/>
                             <span>{cartItem.name}</span>
                             <span>{cartItem.price}</span>
                             <button onClick={() => removeItemFromCart(index)}>Remove</button>
                         </div>
                         ))}
-                    </div>
+                    </div>}
                 </div>
             </div>
             </div>
