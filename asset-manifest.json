@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/FoodHomePage/static/css/main.e70fdb47.css",
-    "main.js": "/FoodHomePage/static/js/main.6e5db6ce.js",
+    "main.css": "/FoodHomePage/static/css/main.679781a0.css",
+    "main.js": "/FoodHomePage/static/js/main.e29040ab.js",
     "static/js/787.fd53e7bc.chunk.js": "/FoodHomePage/static/js/787.fd53e7bc.chunk.js",
+    "static/media/Burger slider.png": "/FoodHomePage/static/media/Burger slider.b59dcd6187c8834432cb.png",
+    "static/media/pizza 1.png": "/FoodHomePage/static/media/pizza 1.57eb1c767eb612e196cc.png",
     "static/media/Grass 2.png": "/FoodHomePage/static/media/Grass 2.3df5ddadf1463d87b2dc.png",
     "static/media/Food.png": "/FoodHomePage/static/media/Food.a5f869c265684755adf5.png",
+    "static/media/pizza 2.png": "/FoodHomePage/static/media/pizza 2.d72216c46bd3de6e91cb.png",
     "static/media/Header image.png": "/FoodHomePage/static/media/Header image.e6d4eb214309bc8b68cb.png",
+    "static/media/japanese.png": "/FoodHomePage/static/media/japanese.5e7253180772e86115be.png",
+    "static/media/Enjoy 30.png": "/FoodHomePage/static/media/Enjoy 30.2420fba839a9088c0ac4.png",
+    "static/media/Extra.png": "/FoodHomePage/static/media/Extra.7d0910344c73d9eb7011.png",
+    "static/media/fries.png": "/FoodHomePage/static/media/fries.c58ef77a5a71e8b25081.png",
     "static/media/Grass.png": "/FoodHomePage/static/media/Grass.79a41501473a6414f406.png",
     "static/media/Logo with text.png": "/FoodHomePage/static/media/Logo with text.e76adb01e50cbf301be4.png",
     "static/media/Calendar.png": "/FoodHomePage/static/media/Calendar.a9ac7132ae4222cb22b8.png",
+    "static/media/burgerrr.png": "/FoodHomePage/static/media/burgerrr.9b7fd4b2201f89063a25.png",
+    "static/media/pizza.png": "/FoodHomePage/static/media/pizza.b4908d2b801ad2ea785c.png",
+    "static/media/cupcake.png": "/FoodHomePage/static/media/cupcake.f7135ce80af863092d13.png",
     "static/media/Quality maintain.png": "/FoodHomePage/static/media/Quality maintain.275bccc83475ffaa1457.png",
+    "static/media/soft drinks.png": "/FoodHomePage/static/media/soft drinks.1a70c015f306572d85d8.png",
     "static/media/Fresh food.png": "/FoodHomePage/static/media/Fresh food.7aa7526f24f98232ccb2.png",
     "static/media/Fast delivery.png": "/FoodHomePage/static/media/Fast delivery.f416f5f472ae102a2daa.png",
     "static/media/Location.png": "/FoodHomePage/static/media/Location.72c6490836bed33aeee8.png",
@@ -17,12 +28,12 @@
     "static/media/Search icon.png": "/FoodHomePage/static/media/Search icon.77ad1c5feb207e605651.png",
     "static/media/Call.png": "/FoodHomePage/static/media/Call.93ab1997949f5ac8845f.png",
     "index.html": "/FoodHomePage/index.html",
-    "main.e70fdb47.css.map": "/FoodHomePage/static/css/main.e70fdb47.css.map",
-    "main.6e5db6ce.js.map": "/FoodHomePage/static/js/main.6e5db6ce.js.map",
+    "main.679781a0.css.map": "/FoodHomePage/static/css/main.679781a0.css.map",
+    "main.e29040ab.js.map": "/FoodHomePage/static/js/main.e29040ab.js.map",
     "787.fd53e7bc.chunk.js.map": "/FoodHomePage/static/js/787.fd53e7bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e70fdb47.css",
-    "static/js/main.6e5db6ce.js"
+    "static/css/main.679781a0.css",
+    "static/js/main.e29040ab.js"
   ]
 }
