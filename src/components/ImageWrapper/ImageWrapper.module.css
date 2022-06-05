@@ -1,0 +1,7 @@
+.ImageWrapper {
+    margin: 40px;
+}
+
+.ImageWrapper > *:nth-child(even){
+    margin: 0 20px;
+}

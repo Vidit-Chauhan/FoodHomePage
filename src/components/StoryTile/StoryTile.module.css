@@ -9,11 +9,6 @@
     margin: 10px 0;
 }
 
-.StoryTileWrapper .eyebrowTitle {
-    font-size: 10px;
-    color: rgb(161, 31, 31);
-}
-
 .StoryTileWrapper img {
     max-height: 200px;
 }

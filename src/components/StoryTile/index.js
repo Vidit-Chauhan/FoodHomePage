@@ -11,7 +11,7 @@ const StoryTile = ({image1, image2, title, eyebrowTitle, description, buttonLabe
     return (
             <div className={styles.StoryTileWrapper}>
                 <div className={styles[`detailsWrapper${variation}`]}>
-                    {eyebrowTitle && <p className={styles.eyebrowTitle}>{eyebrowTitle}</p>}
+                    {eyebrowTitle && <p className="eyebrowTitle">{eyebrowTitle}</p>}
                     {title && <p className={styles.title}>{title}</p>}
                     {description && <p className={styles.description}>{description}</p>}
                     {buttonLabel && <Button label={buttonLabel} clickFn={buttonClickFn} />}
